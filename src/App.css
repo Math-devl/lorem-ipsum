@@ -1,17 +1,18 @@
 div {
   background-color: lightgray;
   width: 619px;
-  height: 283px;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
-  height: 80px;
+  margin-bottom: 30px;
 }
 
 p {
-  font-size: 30px;
+  font-size: 19px;
   text-align: left;
-  line-height: 100px;
+  line-height: 20px;
 }
