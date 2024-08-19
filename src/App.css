@@ -1,8 +1,8 @@
-div {
-  background-color: lightgray;
+.mainDiv {
+  background-color: lightgrey;
   width: 619px;
-  margin-top: 20px;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 h1 {

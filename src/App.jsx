@@ -2,13 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Content from "./components/Content";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
+      <div className="mainDiv">
         <h1>Lorem</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -24,7 +25,7 @@ function App() {
         </p>
       </div>
       <br />
-      <div>
+      <div className="mainDiv">
         <h1>Ispum</h1>
         <p>
           Cras sollicitudin, velit vitae vehicula laoreet, lorem sem auctor
@@ -44,6 +45,7 @@ function App() {
           metus rutrum sed.
         </p>
       </div>
+      <Content name="Lorem" text="blablabla" />
     </>
   );
 }
