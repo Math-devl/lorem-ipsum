@@ -1,4 +1,6 @@
+import Content from "./Content";
+
 const Title = (name) => {
-  return <h1>name.text</h1>;
+  return <h1>{name}</h1>;
 };
 export default Title;
