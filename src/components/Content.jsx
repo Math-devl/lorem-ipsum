@@ -6,8 +6,10 @@ const Content = (props) => {
   //console.log(props.text); // renvoie blablabla
   return (
     <>
-      <Title name={props.name} />
-      <Description text={props.text} />
+      <div className="mainDiv">
+        <Title name={props.name} />
+        <Description text={props.text} />
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import Content from "./Content";
 
-const Title = (name) => {
-  return <h1>{name}</h1>;
+const Title = (props) => {
+  return <h1>{props.name}</h1>;
 };
 export default Title;

@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-      <div className="mainDiv">
-        <Content name="Lorem" text="blablabla" />
-      </div>
+      <Content name="Lorem" text="blablabla" />
+
+      <Content name="Ipsum" text="blablabla" />
     </>
   );
 }

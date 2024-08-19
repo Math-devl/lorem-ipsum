@@ -1,6 +1,6 @@
 import Content from "./Content";
 
-const Description = (text) => {
-  return <p>{text}</p>;
+const Description = (props) => {
+  return <p>{props.text}</p>;
 };
 export default Description;
