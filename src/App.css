@@ -1,0 +1,17 @@
+div {
+  background-color: lightgray;
+  width: 619px;
+  height: 283px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  height: 80px;
+}
+
+p {
+  font-size: 30px;
+  text-align: left;
+  line-height: 100px;
+}
